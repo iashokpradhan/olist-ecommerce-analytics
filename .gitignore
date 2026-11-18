@@ -1,0 +1,22 @@
+# Large Raw Data Files (Exceeds GitHub recommended size)
+data/raw/*.csv
+!data/raw/product_category_name_translation.csv
+data/raw/*.zip
+
+# Operating System & Environment Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PostgreSQL local query histories / dumps
+*.dump
+*.sql.bak
